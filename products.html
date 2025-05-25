@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - Vivi's Mobile Hub</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Vivi's Mobile Hub</h1>
+                <p>Your Gateway to Cutting Edge Tech</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html" class="active">Products</a></li>
+                    <li><a href="brands.html">Brands</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <section class="products-page">
+        <div class="container">
+            <h2 class="section-title">Our Products</h2>
+            <div class="filter-options">
+                <select id="brand-filter">
+                    <option value="all">All Brands</option>
+                    <option value="apple">Apple</option>
+                    <option value="samsung">Samsung</option>
+                    <option value="oppo">Oppo</option>
+                    <option value="vivo">Vivo</option>
+                    <option value="huawei">Huawei</option>
+                    <option value="xiaomi">Xiaomi</option>
+                </select>
+                <select id="price-filter">
+                    <option value="all">All Prices</option>
+                    <option value="0-50000">Under PKR 50,000</option>
+                    <option value="50000-100000">PKR 50,000 - 100,000</option>
+                    <option value="100000-150000">PKR 100,000 - 150,000</option>
+                    <option value="150000-200000">PKR 150,000 - 200,000</option>
+                    <option value="200000+">PKR 200,000+</option>
+                </select>
+            </div>
+            <div class="products-grid">
+                <!-- Products will be loaded here via JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-column">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="brands.html">Brands</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Contact Us</h3>
+                <p><i class="fas fa-map-marker-alt"></i> Shop#15, Ground Floor, New Srtc Complex, Saddar, Cant, Hyderabad, Sindh, PK</p>
+                <p><i class="fas fa-phone"></i> +923013227276, +923023209684</p>
+                <p><i class="fas fa-envelope"></i> info@vivismobilehub.com</p>
+            </div>
+            <div class="footer-column">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/vivimobilehub/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/61562357895214" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="https://g.co/kgs/KM6j5c8" target="_blank"><i class="fab fa-google"></i></a>
+                    <a href="https://wa.me/923013227276" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2023 Vivi's Mobile Hub. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <div class="whatsapp-float">
+        <a href="https://wa.me/923013227276" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
